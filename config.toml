@@ -1,0 +1,17 @@
+baseURL = "http://www.ariamis.casa/"
+languageCode = "en-uk"
+defaultContentLanguage = "zh-cn"
+title = "画中世界"
+theme = "paper"
+publishDir = "docs"
+# Tips: 生成静态博客到docs文件夹，部署在GitHub Pages上时，一次性部署博客源码与发布博客
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+# Tips: 定义的博客分类与逻辑关系
+
+[params]
+  author = "狗克"
+  #github = "ArKurt"
