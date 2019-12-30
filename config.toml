@@ -15,3 +15,8 @@ publishDir = "docs"
 [params]
   author = "狗克"
   #github = "ArKurt"
+
+[[menu.main]]
+  name = "日志"
+  weight = 20
+  url = "/posts/"
