@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>This life is too good to have and we are too young to - 画中世界</title>
+    
+    <meta name="description" content="当我说建筑系工作室是公车站后面的那栋楼，大家就会“嗷”的一声，恍然大悟的样子：“前面那一栋是新开的餐厅啊！我去过，特难吃…” 门口横着一排半自行车，车架不够用，我的常常停在外面。从停车位置就能看出起床时间。
+骑车绕过车站，穿过马路，从阿咧巴旁边小径上去，沿着Dipoli边上的路一直往东，就会到海边。草坪上有两条长凳。停在靠近海的那条边上，也不用锁，坐一小会儿，除了遛狗的也不会有太多人经过。就坐一小会儿，因为太阳很快被云挡住，没那么暖和了。远眺一下赫尔辛基，那边天怎么那么蓝。把海水也染了。大概是最后一队加拿大雁的影子还在水里徘徊，把这幅凝固的画面打破，我就不知道该抬头看天还是低头看书。
+祖母托在序言的结尾说：I have to work that way. I design my buildings from the inside out and from the outside in and then once again from inside out until everything is right. 他那么笃定。
+“这种夏末秋初的天最适合跑步或者坐在大草坪上思考人生。”
+我试了几次都失败了。这样的宁静太脆弱，稍微努力下就会伤感。不如小心地喘口气。">
+    <meta name="author" content="狗克">
+    
+    <link href="http://www.ariamis.casa/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://www.ariamis.casa/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://www.ariamis.casa/apple-touch-icon.png">
+    <link rel="icon" href="http://www.ariamis.casa/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.0" />
+    
+    <link rel="alternate" type="application/atom+xml" href="http://www.ariamis.casa/index.xml" title="画中世界">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <p class="logo"><a href="http://www.ariamis.casa/">画中世界</a></p>
+        
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/posts/">日志</a>
+          </li>
+          
+          <li>
+            <a href="/about/">关于</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">This life is too good to have and we are too young to</h1>
+    <div class="post-meta">狗克 · September 23, 2016</div>
+  </header>
+  <div class="post-content"><p>当我说建筑系工作室是公车站后面的那栋楼，大家就会“嗷”的一声，恍然大悟的样子：“前面那一栋是新开的餐厅啊！我去过，特难吃…” 门口横着一排半自行车，车架不够用，我的常常停在外面。从停车位置就能看出起床时间。</p>
+<p>骑车绕过车站，穿过马路，从阿咧巴旁边小径上去，沿着Dipoli边上的路一直往东，就会到海边。草坪上有两条长凳。停在靠近海的那条边上，也不用锁，坐一小会儿，除了遛狗的也不会有太多人经过。就坐一小会儿，因为太阳很快被云挡住，没那么暖和了。远眺一下赫尔辛基，那边天怎么那么蓝。把海水也染了。大概是最后一队加拿大雁的影子还在水里徘徊，把这幅凝固的画面打破，我就不知道该抬头看天还是低头看书。</p>
+<p>祖母托在序言的结尾说：I have to work that way. I design my buildings from the inside out and from the outside in and then once again from inside out until everything is right. 他那么笃定。</p>
+<p>“这种夏末秋初的天最适合跑步或者坐在大草坪上思考人生。”</p>
+<p>我试了几次都失败了。这样的宁静太脆弱，稍微努力下就会伤感。不如小心地喘口气。</p>
+<!-- raw HTML omitted -->
+</div>
+  
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/%E9%97%B2%E4%BA%8B">闲事</a></li>
+      
+    </ul>
+  </footer>
+  
+  
+  
+  
+  
+</article>
+
+</main>
+<footer class="footer">
+  <span>&copy; 2019 <a href="http://www.ariamis.casa/">画中世界</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://www.ariamis.casa/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

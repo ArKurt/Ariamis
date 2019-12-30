@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>A Volver - 画中世界</title>
+    
+    <meta name="description" content="时隔四年重回马德里。
+Bajara的红黄柱；地铁售票机还是不能读取中银信用卡；开门小曲柄；垃圾箱上的标语是Es tuyo cuidalo。
+Ópera门口的巨型Bravos士兵头盔雕像，下面海报写着Juegos de tronos；火腿天堂；肯德基。
+一个阿富汗小伙拿个地址问我在哪站下车；开门的阿里来自迪拜，说他喜欢欧洲的自由，不想回国；5号线的终点看着很像奥萨苏娜但其实是Osuna；对面一个光头大叔带着书和练习册，虽然倒着但是我还是认出来封面上的「博雅中文」。他说“我学中文五年了，还是讲的不好”，我竖了大拇指说挺好的加油。
+早上机场候机是碰到一队运动员穿着红色运动服，来集训不是比赛，滑雪项目，我也说了加油。
+家里剩下的两个室友今天招待了朋友做客，并给我发来了秋天的照片。有金黄的叶子，有背影，有合照。合照上有人没有表情，有人笑着，还有人要哭了。">
+    <meta name="author" content="狗克">
+    
+    <link href="http://www.ariamis.casa/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://www.ariamis.casa/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://www.ariamis.casa/apple-touch-icon.png">
+    <link rel="icon" href="http://www.ariamis.casa/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.0" />
+    
+    <link rel="alternate" type="application/atom+xml" href="http://www.ariamis.casa/index.xml" title="画中世界">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <p class="logo"><a href="http://www.ariamis.casa/">画中世界</a></p>
+        
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/posts/">日志</a>
+          </li>
+          
+          <li>
+            <a href="/about/">关于</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">A Volver</h1>
+    <div class="post-meta">狗克 · October 21, 2019</div>
+  </header>
+  <div class="post-content"><p><img src="https://live.staticflickr.com/65535/49296587402_816e327192_o.jpg" alt="p1"></p>
+<p>时隔四年重回马德里。</p>
+<p>Bajara的红黄柱；地铁售票机还是不能读取中银信用卡；开门小曲柄；垃圾箱上的标语是Es tuyo cuidalo。</p>
+<p>Ópera门口的巨型Bravos士兵头盔雕像，下面海报写着Juegos de tronos；火腿天堂；肯德基。</p>
+<p>一个阿富汗小伙拿个地址问我在哪站下车；开门的阿里来自迪拜，说他喜欢欧洲的自由，不想回国；5号线的终点看着很像奥萨苏娜但其实是Osuna；对面一个光头大叔带着书和练习册，虽然倒着但是我还是认出来封面上的「博雅中文」。他说“我学中文五年了，还是讲的不好”，我竖了大拇指说挺好的加油。</p>
+<p>早上机场候机是碰到一队运动员穿着红色运动服，来集训不是比赛，滑雪项目，我也说了加油。</p>
+<p>家里剩下的两个室友今天招待了朋友做客，并给我发来了秋天的照片。有金黄的叶子，有背影，有合照。合照上有人没有表情，有人笑着，还有人要哭了。</p>
+<p><img src="https://live.staticflickr.com/65535/49295906968_a4b3754474_o.jpg" alt="p2"></p>
+</div>
+  
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/%E9%97%B2%E4%BA%8B">闲事</a></li>
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/%E6%97%A5%E8%AE%B0">日记</a></li>
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/madrid">Madrid</a></li>
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/helsinki">Helsinki</a></li>
+      
+    </ul>
+  </footer>
+  
+  
+  
+  
+  
+</article>
+
+</main>
+<footer class="footer">
+  <span>&copy; 2019 <a href="http://www.ariamis.casa/">画中世界</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://www.ariamis.casa/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

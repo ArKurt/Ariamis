@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>闲事 - 画中世界</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="狗克">
+    
+    <link href="http://www.ariamis.casa/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://www.ariamis.casa/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://www.ariamis.casa/apple-touch-icon.png">
+    <link rel="icon" href="http://www.ariamis.casa/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.0" />
+    
+    <link rel="alternate" type="application/atom+xml" href="http://www.ariamis.casa/index.xml" title="画中世界">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <p class="logo"><a href="http://www.ariamis.casa/">画中世界</a></p>
+        
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/posts/">日志</a>
+          </li>
+          
+          <li>
+            <a href="/about/">关于</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+
+
+
+<header class="page-header">
+  <h1>闲事</h1>
+</header>
+
+
+
+
+
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>A Volver</h2>
+  </header>
+  <section class="entry-content">
+   <p>时隔四年重回马德里。
+Bajara的红黄柱；地铁售票机还是不能读取中银信用卡；开门小曲柄；垃圾箱上的标语是Es tuyo cuidalo。
+Ópera门口的巨型Bravos士兵头盔雕像，下面海报写着Juegos de tronos；火腿天堂；肯德基。
+一个阿富汗小伙拿个地址问我在哪站下车；开门的阿里来自迪拜，说他喜欢欧洲的自由，不想回国；5号线的终点看着很像奥萨苏娜但其实是Osuna；对面一个光头大叔带着书和练习册，虽然倒着但是我还是认出来封面上的「博雅中文」。他说“我学中文五年了，还是讲的不好”，我竖了大拇指说挺好的加油。
+早上机场候机是碰到一队运动员穿着红色运动服，来集训不是比赛，滑雪项目，我也说了加油。
+家里剩下的两个室友今天招待了朋友做客，并给我发来了秋天的照片。有金黄的叶子，有背影，有合照。合照上有人没有表情，有人笑着，还有人要哭了。...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>October 21, 2019</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/a-volver/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>This life is too good to have and we are too young to</h2>
+  </header>
+  <section class="entry-content">
+   <p>当我说建筑系工作室是公车站后面的那栋楼，大家就会“嗷”的一声，恍然大悟的样子：“前面那一栋是新开的餐厅啊！我去过，特难吃…” 门口横着一排半自行车，车架不够用，我的常常停在外面。从停车位置就能看出起床时间。
+骑车绕过车站，穿过马路，从阿咧巴旁边小径上去，沿着Dipoli边上的路一直往东，就会到海边。草坪上有两条长凳。停在靠近海的那条边上，也不用锁，坐一小会儿，除了遛狗的也不会有太多人经过。就坐一小会儿，因为太阳很快被云挡住，没那么暖和了。远眺一下赫尔辛基，那边天怎么那么蓝。把海水也染了。大概是最后一队加拿大雁的影子还在水里徘徊，把这幅凝固的画面打破，我就不知道该抬头看天还是低头看书。
+祖母托在序言的结尾说：I have to work that way. I design my buildings from the inside out and from the outside in and then once again from inside out until everything is right. 他那么笃定。
+“这种夏末秋初的天最适合跑步或者坐在大草坪上思考人生。”
+我试了几次都失败了。这样的宁静太脆弱，稍微努力下就会伤感。不如小心地喘口气。...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>September 23, 2016</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/otaniemi-spirit-away/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>一件小事</h2>
+  </header>
+  <section class="entry-content">
+   <p>卡内罗机场不大，从这里乘瑞安需要步行到飞机下面。
+检票的时候，前面一个阿姨拖了两个箱子，后面一个老奶奶拄着拐杖慢悠悠的跟着。
+我上去问那阿姨要不要帮忙，示意他我都空着手。她很爽快的说谢谢。然后我们一起慢悠悠的走，等老太太跟上来。其间我得知她们住马德里，也是在周末去波尔图玩儿。老太太是她妈妈。像这世界上所有和蔼的老奶奶一样，这位老奶奶头发花白，步履蹒跚，足有七十多了。但是笑容满面的，对我十分友好。得知我学建筑，老人兴奋的说她的外孙女也在同校学建筑，现在在波尔图交换。然后这话匣子就打开啦，开心的说个不停。上了飞机我帮她们放好行李又回去坐好，二人不住感谢，弄得我有点语无伦次。
+因为距离很短，我都没睡，一个多小时就到了。我等到她们走过来，接过包，有一起下了飞机取了行李往地铁去。阿姨打通电话给她的外甥女，也就是老太太的外孙女，叫María，告诉她遇到我的事情，还把电话拿给我说，我紧张局促也不知道说些什么，只好反反复复自报家门，哈哈真是太尴尬了……
+老奶奶人太好了。她知道我来不久，语言不便，特意说的很慢很慢，还教我Rr的发音，不厌其烦。T4很大，地铁也很长，我们一路聊波尔图，聊Bacalhau，聊马德里，聊芬兰……也不觉得过了很久。有意思的是，老奶奶问我为什么一个人出来玩儿，我说自由自在，也不用担心给同伴添麻烦。她说她也是，就喜欢一个人！哈哈，阿姨就在旁边呢，看着我无奈的笑笑，翻个白眼，哈哈！
+到了换乘站，我住处离的很近了，她们执意不让我再送。我想坚持来着，可一转念又觉得到处都会有人帮忙吧，担心什么。于是就很她们道别。阿姨要了我电话，说改天一起喝咖啡；老奶奶很热情的亲了我满脸口水，不好意思擦…
+转过身觉得心情太好了。不是因为帮了别人，而是觉得，伸出援手的时候能被接受，实在让人快乐。那阿姨轻松的把她行李箱递给我的表情，我永远都不会忘。...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>November 14, 2015</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/one-day-in-porto/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>给流浪汉送温暖</h2>
+  </header>
+  <section class="entry-content">
+   <p>按照Alex的计划，11点在Kamppi的文具店和另外俩人会合。但是我俩商量提前1小时出发去买纸杯，所以我10点就到了公交站。今儿难得晴朗，天空如洗，阳光斜斜的划过四层高的宿舍楼。空气清新一如往常，没有一丝万圣节的气氛。
+等到Alex一起上了公车，俩人昏昏沉沉的讨论具体计划。这事情要从在哥哈的中央车站说起。那天晚上我在车站接他，觉得有点饿就去买了杯热巧克力坐下等。边上的流浪汉口齿不清问我“能不能给无家可归的人施舍点什么”，我说好啊，一杯热巧克力怎么样？于是就又端了一杯给他，然后开始聊。我们聊政府，聊丹麦中国，聊烟酒大麻，羽毛球（大叔竟然知道林丹），诸如此类我完全预想不到的话题。聊得兴起我叫路人帮忙给我俩拍照，半小时后Alex到了，流浪汉跟我们握手，说他很感激，因为no one cares, no one gives a fuck。
+之后Alex跟我提到他之前在家也会帮助流浪汉，他并不给钱，而是给他们饮食。他觉得相比钱，流浪汉更需要关怀，需要人情来温暖内心（同时咖啡温暖肠胃）。他说我们回去可以试试，我们可以从系里借到保温瓶，提前热好牛奶装进去，带着咖啡和可可现冲给流浪汉。
+于是就有了今天。
+等我俩买到杯子，Javior和Markéta也到了。我们帮助的第一个对象是个波兰妈妈，端着她两个孩子的照片跪在Kamppi广场冰冷的地上。她接受了我们的热巧克力和三明治，同时也问我们能否给钱，我们只好尽量解释给她，当然她也没多大反应。第二位是一个罗马尼亚老婆婆，我觉得她就是Alex说的那种需要心灵关怀的人。她很感激，说着我们听不懂的语言，但是我觉得我能体会到她的喜悦。告别时我去拥抱她，当她亲吻我的脸颊时我觉得很温暖。
+之后的发展出乎我们意料，在车站广场我们一连送出19杯咖啡，全部给了在广场散传单或者拉手风琴的罗马尼亚人民。热牛奶用光了依然有人没拿到咖啡，这让我们欣慰又遗憾。Javior说街头艺人喝完咖啡以后，他们的音乐都变得欢快起来，哈哈！为了补充热水我们去麦当劳寻求帮助，结果被告知一杯热水五毛钱，只好作罢返回Kamppi的小教堂。好在教堂工作人员听了我们的情况后深受感动，给我们补满开水并且点赞。
+因为附近实在没有太多流浪（女）汉，简单商量后大家决定往白教堂走，然后在路上发生了今天最奇怪好玩儿且意外的事情。我们碰到一个生在瑞典长在加拿大后又回到芬兰无工作靠每月400救济金爱好钓鱼曾是金属工人老父亲在两天前去世心情很沮丧无人倾诉终日饮酒的大叔（如果一切都是真的）。起先是他拦下Alex要一毛钱（原因不明），随后他说很空虚只想找人说话，问我们能否在麦当劳等他，等他先干了这杯啤酒。他喝酒用一个麦当劳纸杯，之后我才明白芬兰是不允许在任何公共场所饮酒否则要罚款。我们在麦当劳聊了半小时足有，他似乎对每个人都很感兴趣，并留下我们的名字。看得出来他确实寂寞，当我们决定动身返回，他说想要和我们一起走一会儿，我们当然没有拒绝。在分别握手后，他依然说“我也要走这个方向不用管我”，我们也只好笑笑。
+在返回的公车上我们轻松的聊电影，但是我不时走神，想着可怜大叔忘记我的名字时拍着脑袋说&#34;too much infomation”，其实我们还没说几句话呢。...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>November 2, 2014</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/coffee-for-everyone/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>无题</h2>
+  </header>
+  <section class="entry-content">
+   <p>...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 27, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/untitled-1/"></a>
+</article>
+
+
+
+
+
+</main>
+<footer class="footer">
+  <span>&copy; 2019 <a href="http://www.ariamis.casa/">画中世界</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://www.ariamis.casa/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

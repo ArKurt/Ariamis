@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>画中世界</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="狗克">
+    
+    <link href="http://www.ariamis.casa/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://www.ariamis.casa/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://www.ariamis.casa/apple-touch-icon.png">
+    <link rel="icon" href="http://www.ariamis.casa/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.0" />
+    
+    <link rel="alternate" type="application/atom+xml" href="http://www.ariamis.casa/index.xml" title="画中世界">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list home">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <h1 class="logo"><a href="http://www.ariamis.casa/">画中世界</a></h1>
+        
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/posts/">日志</a>
+          </li>
+          
+          <li>
+            <a href="/about/">关于</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Day 2</h2>
+  </header>
+  <section class="entry-content">
+   <p>阴 转……阴
+居然第二天就迟到…还好没那么严格 - -
+继续做地形，改等高线浪费好多时间，图样，disscusion之前也没做出来，王总肯定不爽…结果后面讨论他还给我讲解，感动！本来想加班做完，明儿一早去吧！明儿上午说啥也要做完！！然后和Sean唠唠。
+聚餐竟然也能报销，更夸张的是10点以后打车也报销！我不想回学校了……我要留在苏州…
+plus两天没弄雅思了，搞起啊...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 21, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/day-2/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Day 29</h2>
+  </header>
+  <section class="entry-content">
+   <p>阴。
+今天是满一个月。这一个月的实习用一个字概括就是：累。...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 20, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/day-29/"></a>
+</article>
+
+
+
+
+<footer class="page-footer">
+  <nav class="pagination">
+    
+    <a class="prev" href="/page/2/">← </a>
+    
+    
+  </nav>
+</footer>
+
+
+</main>
+<footer class="footer">
+  <span>&copy; 2019 <a href="http://www.ariamis.casa/">画中世界</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://www.ariamis.casa/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

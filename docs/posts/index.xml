@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>画中世界</title>
-    <link>http://www.ariamis.casa/</link>
-    <description>Recent content on 画中世界</description>
+    <title>Posts on 画中世界</title>
+    <link>http://www.ariamis.casa/posts/</link>
+    <description>Recent content in Posts on 画中世界</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Mon, 30 Dec 2019 23:06:57 +0200</lastBuildDate>
     
-	<atom:link href="http://www.ariamis.casa/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.ariamis.casa/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>关于</title>
-      <link>http://www.ariamis.casa/about/</link>
-      <pubDate>Fri, 16 Nov 1990 00:00:00 +0200</pubDate>
-      
-      <guid>http://www.ariamis.casa/about/</guid>
-      <description> Long may the sunshine.
- </description>
-    </item>
     
     <item>
       <title>Venga</title>

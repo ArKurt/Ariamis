@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>胡诌 on 画中世界</title>
+    <link>http://www.ariamis.casa/tags/%E8%83%A1%E8%AF%8C/</link>
+    <description>Recent content in 胡诌 on 画中世界</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 28 Dec 2019 05:41:54 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.ariamis.casa/tags/%E8%83%A1%E8%AF%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>少林功夫好</title>
+      <link>http://www.ariamis.casa/posts/first-post/</link>
+      <pubDate>Sat, 28 Dec 2019 05:41:54 +0200</pubDate>
+      
+      <guid>http://www.ariamis.casa/posts/first-post/</guid>
+      <description>人人有功练。</description>
+    </item>
+    
+  </channel>
+</rss>

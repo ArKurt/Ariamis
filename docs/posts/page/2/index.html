@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Posts - 画中世界</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="狗克">
+    
+    <link href="http://www.ariamis.casa/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://www.ariamis.casa/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://www.ariamis.casa/apple-touch-icon.png">
+    <link rel="icon" href="http://www.ariamis.casa/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.0" />
+    
+    <link rel="alternate" type="application/atom+xml" href="http://www.ariamis.casa/index.xml" title="画中世界">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <p class="logo"><a href="http://www.ariamis.casa/">画中世界</a></p>
+        
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/posts/">日志</a>
+          </li>
+          
+          <li>
+            <a href="/about/">关于</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+
+
+
+<header class="page-header">
+  <h1>Posts</h1>
+</header>
+
+
+
+
+
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>给流浪汉送温暖</h2>
+  </header>
+  <section class="entry-content">
+   <p>按照Alex的计划，11点在Kamppi的文具店和另外俩人会合。但是我俩商量提前1小时出发去买纸杯，所以我10点就到了公交站。今儿难得晴朗，天空如洗，阳光斜斜的划过四层高的宿舍楼。空气清新一如往常，没有一丝万圣节的气氛。
+等到Alex一起上了公车，俩人昏昏沉沉的讨论具体计划。这事情要从在哥哈的中央车站说起。那天晚上我在车站接他，觉得有点饿就去买了杯热巧克力坐下等。边上的流浪汉口齿不清问我“能不能给无家可归的人施舍点什么”，我说好啊，一杯热巧克力怎么样？于是就又端了一杯给他，然后开始聊。我们聊政府，聊丹麦中国，聊烟酒大麻，羽毛球（大叔竟然知道林丹），诸如此类我完全预想不到的话题。聊得兴起我叫路人帮忙给我俩拍照，半小时后Alex到了，流浪汉跟我们握手，说他很感激，因为no one cares, no one gives a fuck。
+之后Alex跟我提到他之前在家也会帮助流浪汉，他并不给钱，而是给他们饮食。他觉得相比钱，流浪汉更需要关怀，需要人情来温暖内心（同时咖啡温暖肠胃）。他说我们回去可以试试，我们可以从系里借到保温瓶，提前热好牛奶装进去，带着咖啡和可可现冲给流浪汉。
+于是就有了今天。
+等我俩买到杯子，Javior和Markéta也到了。我们帮助的第一个对象是个波兰妈妈，端着她两个孩子的照片跪在Kamppi广场冰冷的地上。她接受了我们的热巧克力和三明治，同时也问我们能否给钱，我们只好尽量解释给她，当然她也没多大反应。第二位是一个罗马尼亚老婆婆，我觉得她就是Alex说的那种需要心灵关怀的人。她很感激，说着我们听不懂的语言，但是我觉得我能体会到她的喜悦。告别时我去拥抱她，当她亲吻我的脸颊时我觉得很温暖。
+之后的发展出乎我们意料，在车站广场我们一连送出19杯咖啡，全部给了在广场散传单或者拉手风琴的罗马尼亚人民。热牛奶用光了依然有人没拿到咖啡，这让我们欣慰又遗憾。Javior说街头艺人喝完咖啡以后，他们的音乐都变得欢快起来，哈哈！为了补充热水我们去麦当劳寻求帮助，结果被告知一杯热水五毛钱，只好作罢返回Kamppi的小教堂。好在教堂工作人员听了我们的情况后深受感动，给我们补满开水并且点赞。
+因为附近实在没有太多流浪（女）汉，简单商量后大家决定往白教堂走，然后在路上发生了今天最奇怪好玩儿且意外的事情。我们碰到一个生在瑞典长在加拿大后又回到芬兰无工作靠每月400救济金爱好钓鱼曾是金属工人老父亲在两天前去世心情很沮丧无人倾诉终日饮酒的大叔（如果一切都是真的）。起先是他拦下Alex要一毛钱（原因不明），随后他说很空虚只想找人说话，问我们能否在麦当劳等他，等他先干了这杯啤酒。他喝酒用一个麦当劳纸杯，之后我才明白芬兰是不允许在任何公共场所饮酒否则要罚款。我们在麦当劳聊了半小时足有，他似乎对每个人都很感兴趣，并留下我们的名字。看得出来他确实寂寞，当我们决定动身返回，他说想要和我们一起走一会儿，我们当然没有拒绝。在分别握手后，他依然说“我也要走这个方向不用管我”，我们也只好笑笑。
+在返回的公车上我们轻松的聊电影，但是我不时走神，想着可怜大叔忘记我的名字时拍着脑袋说&#34;too much infomation”，其实我们还没说几句话呢。...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>November 2, 2014</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/coffee-for-everyone/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>无题</h2>
+  </header>
+  <section class="entry-content">
+   <p>...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 27, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/untitled-1/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>老头退休了</h2>
+  </header>
+  <section class="entry-content">
+   <p>:(...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 8, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/sir-alex/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Day 23</h2>
+  </header>
+  <section class="entry-content">
+   <p>阴.
+这些日子…… 明天汇报，估计还是Sean那个通过，不知道周五干嘛了。...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 14, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/day-23/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>工作外的一天</h2>
+  </header>
+  <section class="entry-content">
+   <p>应该是阴吧。
+昨天通宵，今儿调休，睡了整整一天。Day23其实是Day22，因为昨天那片写的时候已经是丑寅，当时脑子混乱已经想不清事情了。晚上多多姐打电话说王总问我啦，怎么不上班，加班了就不来了？活还没结束呢，王总都亲自排文本了！ ……后来才知道她涮我，吓尿了！！
+补这篇主要想说，scheme 1 通过了，大喜！也诧异。因为所有人包括我在内都觉得Sean那个更好，不知道甲方什么审美…不过听到 甲方夸那张室内（下面中间那张，我觉得挺次其实……），还是窃喜哈哈！得感谢多多姐帮挑的视角！
+这两天学到很多，虽然效率低，被王总虐（其实他很耐心，给我将很多经验，一点不耐烦都没有，庆幸），但是至少坚持住了。要是像做作业一样随便交了了事，真是难以想象。多多姐说工作跟学校不一样，在学校你那样干顶多拿个低分，现在这样子是要让公司蒙受损失的。现在回想起来她说了那么多“太tm的丑了”真是由衷感谢！幸好有人能提醒我。
+这样一来后面就明朗啦，还有两周把这个活做下去，希望学校能给假让我做完，用骁哥的话就是“净身而归”，哈哈！模型要重新建一下了，不能再坑振哥了… 不能自满，要再接再厉，我就是赶上了，换谁都比我做的好，后面跟不上一样吃大便。 不是吧居然写了这么多！
+洗袜子！...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 14, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/another_day/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Day 10</h2>
+  </header>
+  <section class="entry-content">
+   <p>大晴
+就知道坚持不了！ 这几天发生很多事情，但我还是太懒了…… 比方说看西游记啊，打赌输了加班啊，跟王总学到好多（实用的手法，比如他说做立面，不是在做平面，现实中也没有那样的视角吧，要把立面当成体块/空间来做。等等），就不一一赘述了。
+昨天前天加班很烦，速度超慢，效率低，今天状态有所回勇，而且对SketchUp有了新的认识，明天继续！
+跟振哥学了句韩语：残夜尔粗咔哈密达 哈哈！...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 4, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/day-10/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Day 5</h2>
+  </header>
+  <section class="entry-content">
+   <p>小雨
+太累了，无话，不表...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 26, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/day-5/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Day 4</h2>
+  </header>
+  <section class="entry-content">
+   <p>阴
+其实昨天加班来着，没干啥……就不写了…
+今天做建筑的模型。之前没有发现做模型其实也很有意思。亮哥的模型太逆天了，悬索的膜结构都能用泡沫做出来- -, 跟着他，有肉吃。晚上王总回来看下模型，说了些新想法，明天再跟Sean讨论吧。在这里没什么约束，有想法不会被埋没，就怕不作声，我的换换脑筋。
+帮Robert装了rhino5，顺便自己也更新下，标签很好用啊！新功能慢慢研究。
+我把新照片下载下来，一片油菜花地里，很美。去上海可以找兔找亚欣哥，可是要不要去呢？好比我一开始想去北京，pm2.5一吸，退堂鼓狂打，觉得苏州哪儿哪儿都好（除了不能骑摩托）。离上海大概半个小时？结果离北京远了。
+哈 造化弄人
+ps振哥是对的，我就是睡多了，今儿起得早也没困，明天继续。 干！忘记签到！...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 25, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/day-4/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Day 1</h2>
+  </header>
+  <section class="entry-content">
+   <p>大晴天
+第一天很顺！天气转晴，昨天的雪一直化，路上都是积水。
+接待我的焦总很好，关心我的吃住，人也和蔼；王总很帅很牛！骁哥振哥莫莫也都很好，Sean也随和，哈哈！
+没想到第一天就做新方案，刚好deadline是十号，但愿可以做完带走。 做了一整天模型，加班。
+不过有加班餐，赚！...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 22, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/day-1/"></a>
+</article>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Day 3</h2>
+  </header>
+  <section class="entry-content">
+   <p>阴
+终于做完地形，明儿来粘吧。
+今儿又聚餐，Robert太欢乐了，看到鸡爪直接要晕。他居然练鸡腿也不吃。 忘了说昨天认识新同事钱多多；还有更夸张的，振哥居然是在韩国念的本科，韩语杠杠的。
+明儿怎么办啊不想加班，可是王总又要来。
+唉……...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 22, 2013</time>
+  </footer>
+  <a class="entry-link" href="http://www.ariamis.casa/posts/day-3/"></a>
+</article>
+
+
+
+
+<footer class="page-footer">
+  <nav class="pagination">
+    
+    <a class="prev" href="/posts/">← </a>
+    
+    
+    <a class="next" href="/posts/page/3/"> →</a>
+    
+  </nav>
+</footer>
+
+
+</main>
+<footer class="footer">
+  <span>&copy; 2019 <a href="http://www.ariamis.casa/">画中世界</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://www.ariamis.casa/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>一件小事 - 画中世界</title>
+    
+    <meta name="description" content="卡内罗机场不大，从这里乘瑞安需要步行到飞机下面。
+检票的时候，前面一个阿姨拖了两个箱子，后面一个老奶奶拄着拐杖慢悠悠的跟着。
+我上去问那阿姨要不要帮忙，示意他我都空着手。她很爽快的说谢谢。然后我们一起慢悠悠的走，等老太太跟上来。其间我得知她们住马德里，也是在周末去波尔图玩儿。老太太是她妈妈。像这世界上所有和蔼的老奶奶一样，这位老奶奶头发花白，步履蹒跚，足有七十多了。但是笑容满面的，对我十分友好。得知我学建筑，老人兴奋的说她的外孙女也在同校学建筑，现在在波尔图交换。然后这话匣子就打开啦，开心的说个不停。上了飞机我帮她们放好行李又回去坐好，二人不住感谢，弄得我有点语无伦次。
+因为距离很短，我都没睡，一个多小时就到了。我等到她们走过来，接过包，有一起下了飞机取了行李往地铁去。阿姨打通电话给她的外甥女，也就是老太太的外孙女，叫María，告诉她遇到我的事情，还把电话拿给我说，我紧张局促也不知道说些什么，只好反反复复自报家门，哈哈真是太尴尬了……
+老奶奶人太好了。她知道我来不久，语言不便，特意说的很慢很慢，还教我Rr的发音，不厌其烦。T4很大，地铁也很长，我们一路聊波尔图，聊Bacalhau，聊马德里，聊芬兰……也不觉得过了很久。有意思的是，老奶奶问我为什么一个人出来玩儿，我说自由自在，也不用担心给同伴添麻烦。她说她也是，就喜欢一个人！哈哈，阿姨就在旁边呢，看着我无奈的笑笑，翻个白眼，哈哈！
+到了换乘站，我住处离的很近了，她们执意不让我再送。我想坚持来着，可一转念又觉得到处都会有人帮忙吧，担心什么。于是就很她们道别。阿姨要了我电话，说改天一起喝咖啡；老奶奶很热情的亲了我满脸口水，不好意思擦…
+转过身觉得心情太好了。不是因为帮了别人，而是觉得，伸出援手的时候能被接受，实在让人快乐。那阿姨轻松的把她行李箱递给我的表情，我永远都不会忘。">
+    <meta name="author" content="狗克">
+    
+    <link href="http://www.ariamis.casa/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://www.ariamis.casa/style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://www.ariamis.casa/apple-touch-icon.png">
+    <link rel="icon" href="http://www.ariamis.casa/favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.62.0" />
+    
+    <link rel="alternate" type="application/atom+xml" href="http://www.ariamis.casa/index.xml" title="画中世界">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
+
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <p class="logo"><a href="http://www.ariamis.casa/">画中世界</a></p>
+        
+        
+        <ul class="menu">
+          
+          <li>
+            <a href="/posts/">日志</a>
+          </li>
+          
+          <li>
+            <a href="/about/">关于</a>
+          </li>
+          
+        </ul>
+        
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">一件小事</h1>
+    <div class="post-meta">狗克 · November 14, 2015</div>
+  </header>
+  <div class="post-content"><p>卡内罗机场不大，从这里乘瑞安需要步行到飞机下面。</p>
+<p>检票的时候，前面一个阿姨拖了两个箱子，后面一个老奶奶拄着拐杖慢悠悠的跟着。</p>
+<p>我上去问那阿姨要不要帮忙，示意他我都空着手。她很爽快的说谢谢。然后我们一起慢悠悠的走，等老太太跟上来。其间我得知她们住马德里，也是在周末去波尔图玩儿。老太太是她妈妈。像这世界上所有和蔼的老奶奶一样，这位老奶奶头发花白，步履蹒跚，足有七十多了。但是笑容满面的，对我十分友好。得知我学建筑，老人兴奋的说她的外孙女也在同校学建筑，现在在波尔图交换。然后这话匣子就打开啦，开心的说个不停。上了飞机我帮她们放好行李又回去坐好，二人不住感谢，弄得我有点语无伦次。</p>
+<p>因为距离很短，我都没睡，一个多小时就到了。我等到她们走过来，接过包，有一起下了飞机取了行李往地铁去。阿姨打通电话给她的外甥女，也就是老太太的外孙女，叫María，告诉她遇到我的事情，还把电话拿给我说，我紧张局促也不知道说些什么，只好反反复复自报家门，哈哈真是太尴尬了……</p>
+<p>老奶奶人太好了。她知道我来不久，语言不便，特意说的很慢很慢，还教我<strong>Rr</strong>的发音，不厌其烦。T4很大，地铁也很长，我们一路聊波尔图，聊<strong>Bacalhau</strong><img src="http://2.bp.blogspot.com/-RQbE5e0IPvs/ToIMjfyTqmI/AAAAAAAAABc/HOQqFD96dwY/s1600/Bacalhau+a+portuguesa01.jpgBacalhau" alt="Bacalhau" title="葡国美食Bacalhau">，聊马德里，聊芬兰……也不觉得过了很久。有意思的是，老奶奶问我为什么一个人出来玩儿，我说自由自在，也不用担心给同伴添麻烦。她说她也是，就喜欢一个人！哈哈，阿姨就在旁边呢，看着我无奈的笑笑，翻个白眼，哈哈！</p>
+<p>到了换乘站，我住处离的很近了，她们执意不让我再送。我想坚持来着，可一转念又觉得到处都会有人帮忙吧，担心什么。于是就很她们道别。阿姨要了我电话，说改天一起喝咖啡；老奶奶很热情的亲了我满脸口水，不好意思擦…</p>
+<p>转过身觉得心情太好了。不是因为帮了别人，而是觉得，伸出援手的时候能被接受，实在让人快乐。那阿姨轻松的把她行李箱递给我的表情，我永远都不会忘。</p>
+<p><img src="https://live.staticflickr.com/65535/49296639707_b68ff2d6fa_o.jpg" alt="P1"></p>
+</div>
+  
+  <footer class="post-footer">
+    <ul class="post-tags">
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/%E9%97%B2%E4%BA%8B">闲事</a></li>
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/%E6%97%A5%E8%AE%B0">日记</a></li>
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/porto">Porto</a></li>
+      
+      
+      <li><a href="http://www.ariamis.casa/tags/madrid">Madrid</a></li>
+      
+    </ul>
+  </footer>
+  
+  
+  
+  
+  
+</article>
+
+</main>
+<footer class="footer">
+  <span>&copy; 2019 <a href="http://www.ariamis.casa/">画中世界</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://www.ariamis.casa/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+
