@@ -30,5 +30,4 @@ draft: true
 * **石上**纯也  Jun'ya **Ishigami** （1974- ）
 
 
-
-![一位老爷爷](http://ww2.sinaimg.cn/large/6cc5924egw1eyp5q64wgrj20dz0ksdhx.jpg "说到建筑我也不是针对谁")
+![一位老爷爷](https://tva1.sinaimg.cn/large/006tNbRwgy1gah6v574joj30dz0ksdhx.jpg "说到建筑我也不是针对谁")

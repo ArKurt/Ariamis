@@ -7,10 +7,10 @@ draft: true
 
 下午空闲时候做了个夹子。
 
-![锵锵](http://ww1.sinaimg.cn/large/6cc5924egw1f1lb7mnhxcj20go0gotcv.jpg) "锵锵"
+![p1](https://live.staticflickr.com/65535/49308971641_b6b31e8b49_o.jpg)
 
 其实是因为前天看到Robert做夹子勺子什么的手痒，然后做起来其实也很快十来分钟就好了。关键还是之前太懒。粘的时候还刚巧碰到Robert跟Marta路过，俩人把玩半天说mucho mejor！
 
 不过有点短了，下次改进吧。
 
-![还是好用的](http://ww1.sinaimg.cn/large/6cc5924egw1f1lb95cedxg20h80uob2e.gif)
+![p2](https://live.staticflickr.com/65535/49308478878_11999055c9_o.gif)
