@@ -7,4 +7,5 @@ meta = "false" #Do not display tags or categories
 +++
 
 > Long may the sunshine.
-我的邮箱：arkurt7@yahoo.com
+
+✉︎ arkurt7@yahoo.com
