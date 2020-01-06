@@ -1,5 +1,5 @@
 ---
-title: "The Great Renunciation"
+title: "夜半逾城"
 date: 2020-01-06T01:54:28+02:00
 tags: ["笔记", "读书", "摘录"]
 draft: true
