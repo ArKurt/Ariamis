@@ -9,6 +9,41 @@
   
   <url>
     <loc>http://www.ariamis.casa/posts/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/tags/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/posts/the-great-renunciation/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/tags/%E6%91%98%E5%BD%95/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/tags/%E8%AF%BB%E4%B9%A6/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/tags/helsinki/</loc>
     <lastmod>2020-01-01T11:23:00+02:00</lastmod>
   </url>
   
@@ -18,18 +53,18 @@
   </url>
   
   <url>
-    <loc>http://www.ariamis.casa/</loc>
+    <loc>http://www.ariamis.casa/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-01-01T11:23:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/tags/%E9%97%B2%E4%BA%8B/</loc>
     <lastmod>2020-01-01T11:23:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.ariamis.casa/posts/venga/</loc>
     <lastmod>2019-12-30T23:06:57+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.ariamis.casa/tags/</loc>
-    <lastmod>2019-12-28T05:41:54+02:00</lastmod>
   </url>
   
   <url>
@@ -48,22 +83,7 @@
   </url>
   
   <url>
-    <loc>http://www.ariamis.casa/tags/helsinki/</loc>
-    <lastmod>2019-10-21T08:39:40+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.ariamis.casa/tags/madrid/</loc>
-    <lastmod>2019-10-21T08:39:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.ariamis.casa/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2019-10-21T08:39:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.ariamis.casa/tags/%E9%97%B2%E4%BA%8B/</loc>
     <lastmod>2019-10-21T08:39:40+00:00</lastmod>
   </url>
   
@@ -124,11 +144,6 @@
   
   <url>
     <loc>http://www.ariamis.casa/posts/j-architects/</loc>
-    <lastmod>2015-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.ariamis.casa/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-05T00:00:00+00:00</lastmod>
   </url>
   
