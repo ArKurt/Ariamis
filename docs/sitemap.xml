@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.ariamis.casa/tags/ark/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.ariamis.casa/posts/</loc>
     <lastmod>2020-01-06T01:54:28+02:00</lastmod>
   </url>
@@ -33,7 +38,17 @@
   </url>
   
   <url>
+    <loc>http://www.ariamis.casa/posts/transparency/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.ariamis.casa/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-01-06T01:54:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/tags/%E8%83%A1%E8%AF%8C/</loc>
     <lastmod>2020-01-06T01:54:28+02:00</lastmod>
   </url>
   
@@ -79,11 +94,6 @@
   
   <url>
     <loc>http://www.ariamis.casa/posts/first-post/</loc>
-    <lastmod>2019-12-28T05:41:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.ariamis.casa/tags/%E8%83%A1%E8%AF%8C/</loc>
     <lastmod>2019-12-28T05:41:54+02:00</lastmod>
   </url>
   
