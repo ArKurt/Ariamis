@@ -29,5 +29,5 @@ draft: true
 补充：
 1. 整理过程中发现日文简化字都可以找到对应的繁体字，在日文汉字字典中被称为“旧字”，就直接用了繁体。如“原 広司”、“竹山 実”、“山本 理顕”。
 2. 没有搜到八束老爷子的名写法，应该类似林原めぐみ（惠）那样。与はじめ对应的男子汉字名有28种以上，参见[这里](http://www.hipenpal.com/tool/japanese-names-search-and-converter-in-traditional-chinese.php?nowpage=2&movepage=1&vp=&sp=&lang=&od=e&startchk=OK&keyword=hajime&to=檢索&malename=checked "日本人名字的讀法搜索")。
-3. 竹山实的履历真是了不起。
+3. [竹山实](https://japan-architect.jimdofree.com/japanese-architects/takeyama-minoru-%E7%AB%B9%E5%B1%B1%E5%AE%9F/)的履历真是了不起。
 4. 认识了清家清，感谢博士。
