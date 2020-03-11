@@ -4,12 +4,22 @@
   
   <url>
     <loc>http://www.ariamis.casa/about/</loc>
-    <lastmod>1990-11-16T00:00:00+02:00</lastmod>
+    <lastmod>1990-11-16T00:00:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.ariamis.casa/posts/</loc>
-    <lastmod>2020-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-12T01:45:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/posts/mission/</loc>
+    <lastmod>2020-03-12T01:45:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ariamis.casa/</loc>
+    <lastmod>2020-03-12T01:45:06+08:00</lastmod>
   </url>
   
   <url>
@@ -29,11 +39,6 @@
   
   <url>
     <loc>http://www.ariamis.casa/posts/j-architects-2/</loc>
-    <lastmod>2020-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.ariamis.casa/</loc>
     <lastmod>2020-01-18T00:00:00+00:00</lastmod>
   </url>
   
